@@ -1,0 +1,22 @@
+var body = $response.body;
+
+var url = $request.url;
+
+var obj = JSON.parse(body);
+
+const vip = '/api/myapp/isLogin';
+
+if (url.indexOf(vip) != -1) {
+
+    obj.viptype = 3;
+
+    obj.vipexpire = "2899-00-00 00:00:00";
+
+    obj.viplevel = 1
+
+    body = JSON.stringify(obj);
+
+}
+
+$done({body});
+
