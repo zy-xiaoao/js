@@ -8,7 +8,7 @@ const vip = '/account/me';
 
 if (url.indexOf(vip) != -1) {
 
-    obj.data.vip = true;
+    obj.data.vip = 1;
 
     obj.data.createAt = "2099-09-09 09:09:09"
 
