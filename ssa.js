@@ -14,9 +14,9 @@ if (url.indexOf(vip) != -1) {
 
     obj.groupname = "白金会员";
 
-    obj.overduedate = 2027383523;
+    obj.overduedate = 2077383523;
 
-    obj.overduedate2 = 2027383523;
+    obj.overduedate2 = 2077383523;
 
     body = JSON.stringify(obj);
 
