@@ -10,7 +10,7 @@ if (url.indexOf(vip) != -1) {
 
     obj.viptype = 3;
 
-    obj.vipexpire = "2899-00-00 00:00:00";
+    obj.vipexpire = "2999-09-09 09:09:09";
 
     obj.viplevel = 1
 
