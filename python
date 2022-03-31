@@ -8,11 +8,17 @@ const vip = '/api/myapp/isLogin';
 
 if (url.indexOf(vip) != -1) {
 
-    obj.viptype = 3;
+    obj.viptype = 1;
 
     obj.vipexpire = "2999-09-09 09:09:09";
 
-    obj.viplevel = 1
+    obj.viplevel = 1;
+    
+    obj.locked = 1;
+    
+    obj.regtype = 1;
+    
+    obj.vipexpire2 = "2999-09-09 09:09:09";
 
     body = JSON.stringify(obj);
 
