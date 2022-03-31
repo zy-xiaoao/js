@@ -8,7 +8,7 @@ const vip = '/cms/Appapi/username/username';
 
 if (url.indexOf(vip) != -1) {
 
-    obj.point= 999999;
+    obj.point= 666666;
 
     obj.jomkenylv = 99;
 
