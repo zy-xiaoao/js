@@ -1,6 +1,14 @@
 /*
 
 ‼️规则完全免费，仅供学习交流，🈲️商业用途
+***************************
+QuantumultX:
+
+[rewrite_local]
+^https://api.xiuxiu.meitu.com/v1/vip url script-response-body https://raw.githubusercontent.com/zy-xiaoao/js/main/meituxiuxiu2.js
+
+[mitm]
+hostname = api.xiuxiu.meitu.com
 
 */
 var body = $response.body;
