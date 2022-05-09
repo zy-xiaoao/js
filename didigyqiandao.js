@@ -7,9 +7,11 @@
 
 获取ck：  打开软件即可------
 
-重写：https://game.xiaojukeji.com/api/game/plant url script-request-headers https://raw.githubusercontent.com/zy-xiaoao/js/main/didigyqiandao.js
+[rewrite_local]
+https://game.xiaojukeji.com/api/game/plant url script-request-headers https://raw.githubusercontent.com/zy-xiaoao/js/main/didigyqiandao.js
 
-主机名：game.xiaojukeji.com
+[mitm]
+hostname = game.xiaojukeji.com
 
 */
 
