@@ -1,8 +1,8 @@
 /*
-9.15  
+2022.5.9  
 
-软件：  羊毛
-收益：  每天200W  
+软件：  滴滴果园签到
+收益：  每天自动签到  
 注意事项 ： 运行js时不要打开软件app
 
 获取ck：  打开软件即可------
@@ -13,6 +13,9 @@ https://game.xiaojukeji.com/api/game/plant url script-request-headers https://ra
 [mitm]
 hostname = game.xiaojukeji.com
 
+[task_local]
+#滴滴果园签到
+0 8 * * * https://raw.githubusercontent.com/zy-xiaoao/js/main/didigyqiandao.js, tag=滴滴果园签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
 */
 
 
