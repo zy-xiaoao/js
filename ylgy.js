@@ -1,7 +1,7 @@
 /*
 [rewrite_local]   
 
-^^https://cat-match.easygame2021.com/sheep/v1/game/map_info url script-response-body ylgy.js
+^https://cat-match.easygame2021.com/sheep/v1/game/map_info url script-response-body https://raw.githubusercontent.com/zy-xiaoao/js/main/ylgy.js
 
 
 [mitm]   
